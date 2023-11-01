@@ -7,6 +7,10 @@ name = "pypi"
 jupyter = "*"
 pandas = "*"
 numpy = "*"
+opencv-python = "*"
+matplotlib = "*"
+torch = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
