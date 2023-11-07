@@ -12,6 +12,7 @@ matplotlib = "*"
 torch = "*"
 scikit-learn = "*"
 seaborn = "*"
+tensordict = "*"
 
 [dev-packages]
 
