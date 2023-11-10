@@ -13,6 +13,7 @@ torch = "*"
 scikit-learn = "*"
 seaborn = "*"
 tensordict = "*"
+roboflow = "*"
 
 [dev-packages]
 
