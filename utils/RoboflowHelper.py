@@ -3,7 +3,7 @@ from roboflow import Roboflow
 
 class RoboflowHelper:
     ROBOFLOW_TOKEN = "EQxthA4jdGAzqD67FiyQ"
-    MODEL_VERSION = 2
+    MODEL_VERSION = 3
 
     def __init__(self):
         self.model = Roboflow(api_key=self.ROBOFLOW_TOKEN).workspace().project("artifin").version(self.MODEL_VERSION).model
