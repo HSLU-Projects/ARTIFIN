@@ -50,10 +50,10 @@ Those metrics are based on the accuracy of the bounding box.
 ![Flow](./_doc/resources/LR5e-5.png)
 `learning_rate` = 0.0005
 
-#### Results (TestData)  
+Results (TestData):  
 `Test Dataset 454 Accuracy: 100.00% F1-Score: 1.00`
 
-####Confision Matrix (TestData)
+#### Confision Matrix (TestData)
 ![Flow](./_doc/resources/Test_Result_Confusion_Matrix.png)
 
 ### Reflection
