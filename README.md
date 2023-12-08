@@ -30,15 +30,30 @@ The architecture to tackle the problem:
     - Make realistic tests on that class
 
 ## Results
-The achieved results were very nice.
+The achieved results were very nice. `YOLOv5` model can efficiently locate right whale heads, which can be cropped and then feed into the `EfficientNet-b4` model to obtain the classification.
 
-Learning Curve EfficientNet:
+### `YOLOv5` Head Location:
+
+#### Metrics  
+![Flow](./_doc/resources/Roboflow_Stats.png)  
+Those metrics are based on the accuracy of the bounding box.
+
+#### Head Location
+![Flow](./_doc/resources/Roboflow.png)
+
+### `EfficientNet-b4` Classification:
+
+#### Learning Curves
 ![Flow](./_doc/resources/LR1e-3.png)
+`learning_rate` = 0.001
 
-Results EfficientNet (TestData):  
+![Flow](./_doc/resources/LR5e-5.png)
+`learning_rate` = 0.0005
+
+#### Results (TestData)  
 `Test Dataset 454 Accuracy: 100.00% F1-Score: 1.00`
 
-Confision Matrix EfficientNet (TestData):
+####Confision Matrix (TestData)
 ![Flow](./_doc/resources/Test_Result_Confusion_Matrix.png)
 
 ### Reflection
