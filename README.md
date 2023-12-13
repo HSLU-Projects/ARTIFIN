@@ -46,12 +46,12 @@ Those metrics are based on the accuracy of the bounding box.
 
 ### `EfficientNet-b4` Classification:
 
-#### Learning Curves
-![Flow](./_doc/resources/LR1e-5.png)
-`learning_rate` = 0.00001
+#### Learning Curve
 
 ![Flow](./_doc/resources/LR2.5e-4.png)
 `learning_rate` = 0.00025
+
+The learning could also have been stopped after 15 epochs cause it tends to overfit afterwards.
 
 #### Metrics  
 275 whales individual whales were in the test dataset
@@ -61,6 +61,9 @@ Those metrics are based on the accuracy of the bounding box.
 `Test Accuracy: 63.66 % Test F1-Score: 0.85`
 
 #### Confision Matrix
+
+The confusion matrix on the testset looks as follows:
+
 ![Flow](./_doc/resources/confusion_matrix.png)
 
 
